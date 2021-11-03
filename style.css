@@ -25,13 +25,8 @@ main div {
     text-align: center;
 }
 
-img{
 
-
-    
-}
-
-h2{
+h1{
     font-size: 50px;
     font-weight: 900;
     word-spacing: 20px;
@@ -40,8 +35,28 @@ h2{
 
 #shoes3{
     color: green;
-}
+} 
 
 nav{
-    display: inline-block;
+    position: fixed;
+    right: 5px;
+}
+
+nav ul li {
+    display: inline;
+    border-radius: 20%;
+    float: left;
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 50%;  
+}
+
+ul li{
+    background-color: white;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    box-shadow: black;
+    cursor: pointer;
 }
