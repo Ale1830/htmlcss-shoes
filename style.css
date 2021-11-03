@@ -22,12 +22,10 @@ main div {
 }
 
 .container{
-    ;
-    
 }
 
 img{
-    right: 40%
+
 
     
 }
@@ -37,4 +35,12 @@ h2{
     font-weight: 900;
     word-spacing: 20px;
     color: yellow;
+}
+
+#shoes3{
+    color: green;
+}
+
+nav{
+    display: inline-block;
 }
