@@ -9,15 +9,15 @@ main div {
     width: 100%;
 }
 
-.scarpa1{
+#scarpa1{
     background-color: brown;
 }
 
-.scarpa2{
+#scarpa2{
     background-color: green;
 }
 
-.scarpa3{
+#scarpa3{
  background-color: yellow;
 }
 
@@ -42,21 +42,28 @@ nav{
     right: 5px;
 }
 
-nav ul li {
+nav ul li  {
     display: inline;
     border-radius: 20%;
     float: left;
     padding: 10px; 
     margin: 10px; 
-    border-radius: 50%;  
+    border-radius: 50%; 
+    border: 2px solid black; 
+    box-shadow:0 3px 5px black;
 }
 
 ul li{
     background-color: white;
     border-radius: 30%;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    box-shadow: black;
+    height: 50px;
+    width: 50px;
+    text-align: center;    
     cursor: pointer;
 }
+
+a{
+    text-decoration: none;
+}
+
+
