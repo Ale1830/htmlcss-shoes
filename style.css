@@ -27,10 +27,20 @@ main div {
 
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
-    word-spacing: 20px;
+    word-spacing: 10px;
     color: yellow;
+    margin-bottom: 10px;
+
+}
+
+img{
+    width: auto;
+    height:45%;
+    transform: translate(10%,10%);
+    margin: 20px 0;
+    margin-top: 200px;
 }
 
 #shoes3{
@@ -65,5 +75,7 @@ ul li{
 a{
     text-decoration: none;
 }
+
+
 
 
