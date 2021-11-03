@@ -4,4 +4,18 @@
     box-sizing: border-box;
 }
 
-main div
+main div {
+    height: 100vh;
+}
+
+.scarpa1{
+    color: brown;
+}
+
+.scarpa2{
+    color: green;
+}
+
+.scarpa3{
+    color: yellow;
+}
